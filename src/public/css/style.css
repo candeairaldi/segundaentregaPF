@@ -2,28 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  /* #products-header h1 {
-    align-items: center;
-  } */
-  
   .welcome {
     font-size: 20px;
     font-weight: 700;
   }
-  
-  /* #products-header .first-row {
-    display: flex;
-  } */
   
   .right {
     display: flex;
     justify-content: end;
   }
   
-  /* .div-cart-btn {
-    display: flex;
-    justify-content: end;
-  } */
   .view-cart {
     /* margin-bottom: 15px; */
     background: #b9d19b;

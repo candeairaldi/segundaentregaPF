@@ -3,11 +3,14 @@ import userModel from "../dao/models/user.model.js";
 
 const router = express.Router();
 
+
+
 //Ruta para guardar el usuario que se quiere registrar
 router.post("/register", async (req, res) => {
   //Recibe el contenido del form
   const { name, lastname, email, password } = req.body;
-
+  const adminUsers = ["admin1@example.com", "admin2@example.com"];
+  
   try {
     //Busca si el email ya se ha registrado anteriormente
     const user = await userModel.findOne({ email });
